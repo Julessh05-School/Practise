@@ -1,4 +1,4 @@
-package models;
+package statischeuebung;
 
 public final class Klasse {
     private static int anzahlObjekte = 0;
