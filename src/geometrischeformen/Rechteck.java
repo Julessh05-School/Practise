@@ -1,9 +1,9 @@
 package geometrischeformen;
 
 public class Rechteck extends GeometrischeForm {
-    protected double a;
+    protected final double a;
 
-    private double b;
+    private final double b;
 
     public Rechteck(double pA, double pB) {
         a = pA;

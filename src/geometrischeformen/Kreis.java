@@ -2,7 +2,11 @@ package geometrischeformen;
 
 public final class Kreis extends GeometrischeForm {
 
-    private double r;
+    private final double r;
+
+    public Kreis(double pR) {
+        r = pR;
+    }
 
     @Override
     public double berechneFlaeche() {
